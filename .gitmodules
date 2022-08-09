@@ -1,3 +1,12 @@
 [submodule "pack/plugins/start/nerdtree"]
 	path = pack/plugins/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule "pack/colors/start/gruvbox"]
+	path = pack/colors/start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+[submodule "pack/plugins/start/bufexplorer"]
+	path = pack/plugins/start/bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer.git
+[submodule "pack/plugins/start/ctrlp.vim"]
+	path = pack/plugins/start/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
