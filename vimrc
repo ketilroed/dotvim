@@ -1,3 +1,7 @@
+lua << EOF
+print('hello from lua')
+EOF
+
 syntax on
 colorscheme gruvbox
 set background=dark
@@ -27,7 +31,13 @@ nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
 
-
+" Moving lines
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
 " Cycle through buffers
 nnoremap <Tab> :bnext<CR>
 nnoremap <S-Tab> :bprevious<CR>
@@ -39,6 +49,7 @@ set backspace=indent,eol,start
 autocmd FileType make setlocal noexpandtab
 
 autocmd BufRead,BufNewFile *.vhd  set tabstop=4
+autocmd BufRead,BufNewFile *.vhdl  set tabstop=4
 
 "augroup vhdl
 "  autocmd!

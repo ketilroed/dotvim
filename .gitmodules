@@ -16,3 +16,6 @@
 [submodule "pack/plugins/start/ale"]
 	path = pack/plugins/start/ale
 	url = https://github.com/dense-analysis/ale.git
+[submodule "pack/colors/start/vim-polar"]
+	path = pack/colors/start/vim-polar
+	url = https://github.com/habamax/vim-polar
