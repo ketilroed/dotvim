@@ -28,9 +28,11 @@ let mapleader="\<space>"
 " shortcut to edit vimrc
 nnoremap <leader>ev :e ~/.vim/vimrc<cr>
 
+nnoremap ,v :e ~/.vim/vimrc
 nnoremap ,e :NERDTreeToggle<CR>
 nnoremap ,b :ls<CR>:buffer<Space>
 nnoremap ,o :bro ol<CR>
+nnoremap <C-p> : find ./**/*
 
 " move among buffers with CTRL
 nmap <C-h> <C-w>h
