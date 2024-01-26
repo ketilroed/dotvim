@@ -15,7 +15,7 @@ set ignorecase
 " Set full path visible in status line
 " set statusline+=%F
 
-source vimrc_keymapping
+source ~/vim/vimrc_keymapping
 " filetype on
 " filetype plugin on
 
