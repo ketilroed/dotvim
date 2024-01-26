@@ -19,3 +19,4 @@
 [submodule "pack/colors/start/vim-polar"]
 	path = pack/colors/start/vim-polar
 	url = https://github.com/habamax/vim-polar
+	url = https://github.com/nvim-lua/plenary.nvim.git
